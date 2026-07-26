@@ -6,7 +6,7 @@
 
 **Backend · Integrations · Automation · Data · Business Systems · Legacy Modernization**
 
-[![Portfolio](https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://brunno-benatti.github.io/)
+[![Portfolio](https://img.shields.io/badge/PORTFOLIO-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://brunno-benatti.github.io/brunno-benatti/)
 [![Repositories](https://img.shields.io/badge/REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/brunno-benatti?tab=repositories)
 [![São Paulo](https://img.shields.io/badge/S%C3%83O%20PAULO-BRAZIL-0891B2?style=for-the-badge&logo=googlemaps&logoColor=white)](https://www.google.com/maps/place/S%C3%A3o+Paulo)
 
@@ -102,7 +102,7 @@ Legacy refactoring, incremental migration, technical coordination, developer tra
 <tr>
 <td width="50%" valign="top">
 
-### [Personal portfolio](https://brunno-benatti.github.io/)
+### [Personal portfolio](https://brunno-benatti.github.io/brunno-benatti/)
 
 Static personal presentation built without frameworks, with a responsive interface and a restrained cyberpunk visual identity.
 
@@ -194,7 +194,7 @@ languages:
 
 ### Build systems people can understand, operate and evolve.
 
-[![Open portfolio](https://img.shields.io/badge/OPEN_PORTFOLIO-C084FC?style=for-the-badge&logo=githubpages&logoColor=111111)](https://brunno-benatti.github.io/)
+[![Open portfolio](https://img.shields.io/badge/OPEN_PORTFOLIO-C084FC?style=for-the-badge&logo=githubpages&logoColor=111111)](https://brunno-benatti.github.io/brunno-benatti/)
 [![Explore repositories](https://img.shields.io/badge/EXPLORE_REPOSITORIES-22D3EE?style=for-the-badge&logo=github&logoColor=111111)](https://github.com/brunno-benatti?tab=repositories)
 
 </div>
