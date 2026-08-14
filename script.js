@@ -6,6 +6,7 @@ const sections = [...document.querySelectorAll('main section[id]')];
 const year = document.querySelector('#year');
 const revealItems = [...document.querySelectorAll('.reveal')];
 const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const language = document.documentElement.lang.toLowerCase().startsWith('pt') ? 'pt' : 'en';
 
 if (year) year.textContent = new Date().getFullYear();
 
@@ -38,12 +39,21 @@ if (reduceMotion || !('IntersectionObserver' in window)) {
   revealItems.forEach((item) => observer.observe(item));
 }
 
-const phrases = [
-  'understand current behavior first',
-  'find root cause before patching symptoms',
-  'change the smallest safe surface',
-  'validate critical behavior explicitly'
-];
+const phraseSets = {
+  en: [
+    'understand current behavior first',
+    'find root cause before patching symptoms',
+    'change the smallest safe surface',
+    'validate critical behavior explicitly'
+  ],
+  pt: [
+    'entender o comportamento atual primeiro',
+    'buscar a causa raiz antes do sintoma',
+    'alterar a menor superfície segura',
+    'validar explicitamente o comportamento crítico'
+  ]
+};
+const phrases = phraseSets[language];
 const message = document.querySelector('#terminal-message');
 let phrase = 0;
 
