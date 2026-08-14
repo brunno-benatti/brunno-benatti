@@ -1,7 +1,11 @@
+document.documentElement.classList.add('js');
+
 const header = document.querySelector('header');
 const links = [...document.querySelectorAll('.nav-links a')];
 const sections = [...document.querySelectorAll('main section[id]')];
 const year = document.querySelector('#year');
+const revealItems = [...document.querySelectorAll('.reveal')];
+const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
 
 if (year) year.textContent = new Date().getFullYear();
 
@@ -19,24 +23,31 @@ const refreshNavigation = () => {
   }
 };
 
-const observer = new IntersectionObserver((entries) => {
-  for (const entry of entries) {
-    if (entry.isIntersecting) entry.target.classList.add('visible');
-  }
-}, { threshold: 0.12 });
+if (reduceMotion || !('IntersectionObserver' in window)) {
+  revealItems.forEach((item) => item.classList.add('visible'));
+} else {
+  const observer = new IntersectionObserver((entries) => {
+    for (const entry of entries) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target);
+      }
+    }
+  }, { threshold: 0.12 });
 
-document.querySelectorAll('.reveal').forEach((item) => observer.observe(item));
+  revealItems.forEach((item) => observer.observe(item));
+}
 
 const phrases = [
-  'menos mágica, mais clareza',
-  'contratos explícitos, mudanças seguras',
-  'ideias ambiciosas, execução incremental',
-  'software compreensível, operação confiável'
+  'understand current behavior first',
+  'find root cause before patching symptoms',
+  'change the smallest safe surface',
+  'validate critical behavior explicitly'
 ];
 const message = document.querySelector('#terminal-message');
 let phrase = 0;
 
-if (message) {
+if (message && !reduceMotion) {
   setInterval(() => {
     phrase = (phrase + 1) % phrases.length;
     message.animate([{ opacity: 1 }, { opacity: 0 }, { opacity: 1 }], { duration: 520 });
