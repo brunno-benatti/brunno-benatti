@@ -1,23 +1,21 @@
 <div align="center">
 
-<img src="./assets/industrial-header.gif" alt="Brunno Benatti — Senior Software Engineer. Backend, integrations and AI systems." width="100%" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="./assets/industrial-header-mobile-static.gif" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/industrial-header-static.gif" />
+  <source media="(max-width: 640px)" srcset="./assets/industrial-header-mobile.gif" />
+  <img src="./assets/industrial-header.gif" width="100%" alt="Brunno Benatti — Senior Software Engineer; backend, integrations and AI systems. An orbital BB mark sits alongside the heading." />
+</picture>
 
-# Brunno Benatti
-
-**Senior Software Engineer**  
-Backend · Systems Integration · Payments & PIX · Applied AI
-
-São Paulo, Brazil · Fluent English · Open to remote collaboration
+**15 years in software engineering · São Paulo, Brazil · Fluent English**
 
 [**PORTFOLIO ↗**](https://brunno-benatti.github.io/brunno-benatti/) &nbsp;·&nbsp; [**LINKEDIN ↗**](https://www.linkedin.com/in/brunno-benatti-26ba06429/) &nbsp;·&nbsp; [**EMAIL ↗**](mailto:brunnob@proton.me)
 
 </div>
 
----
+# Engineering for systems that cannot simply be rewritten
 
-## Engineering for systems that cannot simply be rewritten
-
-I have **15 years of software engineering experience**, working where business rules, APIs, banks, ERPs, CRMs and legacy applications intersect.
+I work where business rules, APIs, banks, ERPs, CRMs and legacy applications intersect.
 
 My focus is on understanding existing behavior, diagnosing failures and delivering changes that work in production — from architecture and implementation to integrations, troubleshooting and controlled modernization.
 
@@ -25,14 +23,10 @@ My focus is on understanding existing behavior, diagnosing failures and deliveri
 
 ## Selected engineering work
 
-| Focus | Work |
-| :--- | :--- |
-| **Payments · PIX · Webhooks** | Backend evolution and payment integrations involving automated PIX flows, banking services, APIs, gateways and asynchronous communication |
-| **ERP · CRM · Business systems** | Integration and evolution of business-critical platforms, including connected operational workflows and data migration |
-| **E-commerce · NetSuite** | Laravel commerce and backoffice systems, ERP integrations, SuiteScript and payment-related workflows |
-| **Applied AI · Local LLMs** | Exploring local inference, structured retrieval, developer tooling, evaluation and operational trade-offs — **experimentation, not a claim of production deployment** |
-
-These descriptions intentionally omit private system details and unsupported performance claims.
+- **Payments · PIX · Webhooks** — Backend evolution and payment integrations involving automated PIX flows, banking services, APIs, gateways and asynchronous communication
+- **ERP · CRM · Business systems** — Integration and evolution of business-critical platforms, including connected operational workflows and data migration
+- **E-commerce · NetSuite** — Laravel commerce and backoffice systems, ERP integrations, SuiteScript and payment-related workflows
+- **Applied AI · Local LLMs** — Exploring local inference, structured retrieval, developer tooling, evaluation and operational trade-offs; experimentation, not a claim of production deployment
 
 ## What I work with
 
@@ -59,15 +53,7 @@ I am interested in **senior backend, integration and hands-on architecture roles
 
 ## Engineering approach
 
-```text
-Understand the system  →  Expose assumptions and risks
-           ↓
-Make the smallest safe change
-           ↓
-Test the critical behavior  →  Validate the result
-           ↓
-Leave the system easier to operate and evolve
-```
+Understand the existing system → Make assumptions and risks explicit → Choose the smallest safe change → Test critical behavior → Validate the result
 
 I favor explicit contracts, reproducible evidence, maintainability and operational clarity over unnecessary abstraction.
 
@@ -79,6 +65,11 @@ I favor explicit contracts, reproducible evidence, maintainability and operation
 
 [**Explore my work**](https://brunno-benatti.github.io/brunno-benatti/) · [**Get in touch**](mailto:brunnob@proton.me) · [**LinkedIn**](https://www.linkedin.com/in/brunno-benatti-26ba06429/)
 
-<img src="./assets/industrial-footer.gif" alt="Animated footer — built with intention, São Paulo, Brazil." width="100%" />
+<picture>
+  <source media="(prefers-reduced-motion: reduce) and (max-width: 640px)" srcset="./assets/industrial-footer-mobile-static.gif" />
+  <source media="(prefers-reduced-motion: reduce)" srcset="./assets/industrial-footer-static.gif" />
+  <source media="(max-width: 640px)" srcset="./assets/industrial-footer-mobile.gif" />
+  <img src="./assets/industrial-footer.gif" width="100%" alt="Built with intention — São Paulo, Brazil. Minimal animated engineering trace." />
+</picture>
 
 </div>
