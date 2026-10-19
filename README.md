@@ -1,109 +1,84 @@
 <div align="center">
 
+<img src="./assets/industrial-header.gif" alt="Brunno Benatti — Senior Software Engineer. Backend, integrations and AI systems." width="100%" />
+
 # Brunno Benatti
 
-### Senior Software Engineer · Backend Engineering · Systems Integration · Legacy Modernization
+**Senior Software Engineer**  
+Backend · Systems Integration · Payments & PIX · Applied AI
 
-I build, stabilize and evolve business-critical software — especially where backend systems, APIs, payments, ERPs, CRMs and legacy applications meet real operations.
+São Paulo, Brazil · Fluent English · Open to remote collaboration
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-Open-7C3AED?style=for-the-badge&logo=githubpages&logoColor=white)](https://brunno-benatti.github.io/brunno-benatti/)
-[![Email](https://img.shields.io/badge/Email-brunnob%40proton.me-6D4AFF?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:brunnob@proton.me)
+[**PORTFOLIO ↗**](https://brunno-benatti.github.io/brunno-benatti/) &nbsp;·&nbsp; [**LINKEDIN ↗**](https://www.linkedin.com/in/brunno-benatti-26ba06429/) &nbsp;·&nbsp; [**EMAIL ↗**](mailto:brunnob@proton.me)
 
 </div>
 
 ---
 
-## What I do
+## Engineering for systems that cannot simply be rewritten
 
-My strongest work is in complex existing systems where behavior needs to be understood before it can be changed safely.
+I have **15 years of software engineering experience**, working where business rules, APIs, banks, ERPs, CRMs and legacy applications intersect.
 
-I work hands-on across **investigation, architecture, implementation, integration, testing and delivery**, with particular focus on:
+My focus is on understanding existing behavior, diagnosing failures and delivering changes that work in production — from architecture and implementation to integrations, troubleshooting and controlled modernization.
 
-- backend systems and business rules;
-- API, webhook, ERP and CRM integrations;
-- payment flows, gateways and PIX;
-- production troubleshooting and root-cause analysis;
-- legacy modernization without unnecessary rewrites;
-- operational automation and internal tools;
-- maintainability, testing and controlled evolution.
+**Backend-first. Hands-on. Pragmatic about complexity.**
 
-> **Engineering approach:** understand current behavior, make risks explicit, test what matters and modernize incrementally.
+## Selected engineering work
 
----
+| Focus | Work |
+| :--- | :--- |
+| **Payments · PIX · Webhooks** | Backend evolution and payment integrations involving automated PIX flows, banking services, APIs, gateways and asynchronous communication |
+| **ERP · CRM · Business systems** | Integration and evolution of business-critical platforms, including connected operational workflows and data migration |
+| **E-commerce · NetSuite** | Laravel commerce and backoffice systems, ERP integrations, SuiteScript and payment-related workflows |
+| **Applied AI · Local LLMs** | Exploring local inference, structured retrieval, developer tooling, evaluation and operational trade-offs — **experimentation, not a claim of production deployment** |
 
-## Core technologies
+These descriptions intentionally omit private system details and unsupported performance claims.
 
-**Backend & integration**  
-PHP · Laravel · Python · Node.js · REST APIs · Webhooks · Jobs · OAuth 2.0 · JWT
+## What I work with
 
-**Frontend when the system requires it**  
-JavaScript · TypeScript · Vue · React · HTML · CSS
+**Backend & integrations**  
+`PHP` · `Laravel` · `Python` · `REST APIs` · `Webhooks` · `Background Jobs` · `OAuth 2.0`
 
-**Data**  
-MySQL · PostgreSQL · SQL Server · MongoDB · BigQuery · Power BI
+**Data & platforms**  
+`MySQL` · `PostgreSQL` · `SQL Server` · `Docker` · `Linux` · `Git` · `CI/CD`
 
-**Platform, quality & delivery**  
-Docker · Linux · Git · CI/CD · Playwright · SonarQube · OWASP ZAP
+**Frontend when needed**  
+`JavaScript` · `TypeScript` · `React` · `Vue`
 
----
+**Current exploration**  
+`Local LLMs` · `AI Workflows` · `Retrieval` · `Developer Automation`
 
-## Business domains
+## Where I add the most value
 
-`Payments & PIX` · `ERP` · `CRM` · `E-commerce` · `Backoffice` · `Enterprise integrations` · `Legacy systems`
+- **Integration rescue** — unstable APIs, webhooks, payments and ERP/CRM connections
+- **Production troubleshooting** — root-cause analysis across application, database and infrastructure boundaries
+- **Legacy modernization** — incremental improvements without high-risk rewrites
+- **Senior hands-on engineering** — architecture decisions backed by actual implementation and validation
 
----
+I am interested in **senior backend, integration and hands-on architecture roles**, as well as focused consulting and contract engagements.
 
-## Representative experience
-
-### ERP + payments + integrations
-Worked on the evolution of an internal ERP across multiple business areas, including payment-gateway integrations, automated PIX flows, APIs, webhooks, reporting, infrastructure support and application-security practices.
-
-### E-commerce + NetSuite + gateways
-Worked on senior full-stack development for e-commerce and administrative systems, including Laravel applications, NetSuite integrations, SuiteScript modules, internal/external APIs and payment-gateway integrations.
-
-These summaries intentionally avoid confidential implementation details and unverified performance claims.
-
----
-
-## Available for
-
-### Integration Rescue
-Diagnosing and stabilizing integrations that are failing, inconsistent, hard to observe or risky to change.
-
-### Production Troubleshooting
-Root-cause investigation for backend and operational problems that cross application, database, integration and infrastructure boundaries.
-
-### Fractional Senior Backend & Integration Engineering
-Senior hands-on capacity for teams that need architecture judgment and implementation without adding a full-time role immediately.
-
-I am also open to **senior fully remote engineering roles** where backend and systems integration remain meaningful parts of the work.
-
----
-
-## How I work
+## Engineering approach
 
 ```text
-Understand the existing system
-        ↓
-Make behavior and risks explicit
-        ↓
-Choose the smallest safe change
-        ↓
-Implement + test + validate
-        ↓
-Leave the system easier to evolve
+Understand the system  →  Expose assumptions and risks
+           ↓
+Make the smallest safe change
+           ↓
+Test the critical behavior  →  Validate the result
+           ↓
+Leave the system easier to operate and evolve
 ```
 
-I value explicit contracts, reproducible validation, clear boundaries, incremental delivery and documentation that remains useful after the original implementation.
+I favor explicit contracts, reproducible evidence, maintainability and operational clarity over unnecessary abstraction.
 
 ---
 
 <div align="center">
 
-### Need help with a backend, integration or legacy-system problem?
+**Have a complicated backend, integration, payment or AI engineering problem?**
 
-**[View the portfolio](https://brunno-benatti.github.io/brunno-benatti/)** · **[Email me](mailto:brunnob@proton.me)**
+[**Explore my work**](https://brunno-benatti.github.io/brunno-benatti/) · [**Get in touch**](mailto:brunnob@proton.me) · [**LinkedIn**](https://www.linkedin.com/in/brunno-benatti-26ba06429/)
 
-São Paulo, Brazil · English: Fluent
+<img src="./assets/industrial-footer.gif" alt="Animated footer — built with intention, São Paulo, Brazil." width="100%" />
 
 </div>
